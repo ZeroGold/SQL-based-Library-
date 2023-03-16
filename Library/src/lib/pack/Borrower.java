@@ -1,0 +1,33 @@
+package lib.pack;
+
+public class Borrower {
+private int cardNo;
+private String name;
+private String address;
+public int getCardNo() {
+	return cardNo;
+}
+public void setCardNo(int cardNo) {
+	this.cardNo = cardNo;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+public String getPhone() {
+	return phone;
+}
+public void setPhone(String phone) {
+	this.phone = phone;
+}
+private String phone;
+
+}
